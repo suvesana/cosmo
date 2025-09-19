@@ -49,7 +49,7 @@ const prompt = ai.definePrompt({
   Generate a multiple-choice quiz based on the following fun facts about {{planetName}}:
   {{funFacts}}
 
-  The quiz should have 3 questions. Each question should have 4 options, with one correct answer. Make sure the questions and options are appropriate for school students.
+  The quiz should have 2 questions. Each question should have 4 options, with one correct answer. Make sure the questions and options are appropriate for school students.
   Return the quiz questions in a JSON format.
   Make sure the correct answer is one of the options.
   Here is the format:
@@ -64,11 +64,6 @@ const prompt = ai.definePrompt({
         "question": "Question 2",
         "options": ["Option A", "Option B", "Option C", "Option D"],
         "correctAnswer": "Option B"
-      },
-      {
-        "question": "Question 3",
-        "options": ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
-        "correctAnswer": "Choice 3"
       }
     ]
   }
