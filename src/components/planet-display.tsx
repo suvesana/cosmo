@@ -15,15 +15,15 @@ interface PlanetDisplayProps {
 }
 
 const planetImages: Record<string, { src: string, hint: string }> = {
-  mercury: { src: 'https://placehold.co/300x300/A8A2A2/FFFFFF.png', hint: 'cartoon mercury' },
-  venus: { src: 'https://placehold.co/300x300/E6C2A6/FFFFFF.png', hint: 'cartoon venus' },
-  earth: { src: 'https://placehold.co/300x300/6FA8DC/FFFFFF.png', hint: 'cartoon earth' },
-  mars: { src: 'https://placehold.co/300x300/C1440E/FFFFFF.png', hint: 'cartoon mars' },
-  jupiter: { src: 'https://placehold.co/300x300/D8B48A/FFFFFF.png', hint: 'cartoon jupiter' },
-  saturn: { src: 'https://placehold.co/300x300/E3D5B9/FFFFFF.png', hint: 'cartoon saturn' },
-  uranus: { src: 'https://placehold.co/300x300/A4D8E6/FFFFFF.png', hint: 'cartoon uranus' },
-  neptune: { src: 'https://placehold.co/300x300/3A5FCD/FFFFFF.png', hint: 'cartoon neptune' },
-  default: { src: 'https://placehold.co/300x300/808080/FFFFFF.png', hint: 'cartoon planet' },
+  mercury: { src: 'https://hobart.k12.in.us/cside/Hitchhiker/mercury.gif', hint: 'cartoon mercury' },
+  venus: { src: 'https://i.pinimg.com/564x/0f/a5/31/0fa531643954939ec86201276cada5ad.jpg', hint: 'cartoon venus' },
+  earth: { src: 'https://static.vecteezy.com/system/resources/thumbnails/002/297/979/small_2x/planet-illustration-of-the-planet-earth-planet-with-t-shirts-and-ode-cartoon-style-free-vector.jpg', hint: 'cartoon earth' },
+  mars: { src: 'https://i.fbcd.co/products/resized/resized-750-500/1806-m10-i006-n007-e06p-cc9a318359dbb8c2c3d1466cb5e8c20b2f18a7a017e73d9a9b6c4d12bb74e595.webp', hint: 'cartoon mars' },
+  jupiter: { src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadeylm7xbJeBBSkZVTiLQD4WAyEDOOW8lsA&s', hint: 'cartoon jupiter' },
+  saturn: { src: 'https://www.shutterstock.com/image-vector/saturn-planet-vector-icon-isolated-260nw-2591459667.jpg'
+  uranus: { src: 'https://static.vecteezy.com/system/resources/previews/002/728/980/non_2x/sticker-template-with-uranus-planet-isolated-free-vector.jpg', hint: 'cartoon uranus' },
+  neptune: { src: 'https://img.freepik.com/premium-vector/neptune_1123339-2152.jpg?semt=ais_incoming&w=740&q=80', hint: 'cartoon neptune' },
+  default: { src: 'https://t3.ftcdn.net/jpg/01/93/13/54/360_F_193135491_La4vpQjhnLojIZB1AERxh4Tu9RL0YdHj.jpg', hint: 'cartoon planet' },
 };
 
 export function PlanetDisplay({ planetName, funFacts, onStartQuiz }: PlanetDisplayProps) {
