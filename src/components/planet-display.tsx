@@ -22,7 +22,7 @@ const planetImages: Record<string, { src: string, hint: string }> = {
   jupiter: { src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadeylm7xbJeBBSkZVTiLQD4WAyEDOOW8lsA&s', hint: 'cartoon jupiter' },
   saturn: { src: 'https://www.shutterstock.com/image-vector/saturn-planet-vector-icon-isolated-260nw-2591459667.jpg', hint: 'cartoon saturn' },
   uranus: { src: 'https://static.vecteezy.com/system/resources/previews/002/728/980/non_2x/sticker-template-with-uranus-planet-isolated-free-vector.jpg', hint: 'cartoon uranus' },
-  neptune: { src: 'https://img.freepik.com/premium-vector/neptune_1123339-2152.jpg?semt=ais_incoming&w=740&q=80', hint: 'cartoon neptune' },
+  neptune: { src: 'https://img.freepik.com/premium-vector/neptune_1123339-2152.jpg', hint: 'cartoon neptune' },
   default: { src: 'https://t3.ftcdn.net/jpg/01/93/13/54/360_F_193135491_La4vpQjhnLojIZB1AERxh4Tu9RL0YdHj.jpg', hint: 'cartoon planet' },
 };
 
