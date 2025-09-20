@@ -1,11 +1,11 @@
 'use client';
 
 import { useState, useTransition } from 'react';
-import { Camera, Loader2, Wand2 } from 'lucide-react';
+import { Camera, Loader2, Star } from 'lucide-react';
 
 import type { QuizQuestion } from '@/lib/types';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { useToast } from '@/hooks/use-toast';
 import { CosmicFactsLogo } from '@/components/icons';
 import { CameraCapture } from '@/components/camera-capture';
@@ -121,6 +121,15 @@ export default function CosmicFactsMain() {
               <Camera className="mr-2 h-6 w-6" />
               Scan a Planet!
             </Button>
+            <div className="mt-6 text-sm text-muted-foreground font-body text-center">
+              <p>A Grade 6B Science Exhibition Project for DPS Monarch International School.</p>
+              <p className="font-bold mt-4 mb-2">Brought to life by our amazing team:</p>
+              <ul className="flex flex-col items-center space-y-1">
+                  <li className="flex items-center gap-2"><Star className="w-4 h-4 text-accent" /> Suvesana Vengadesh</li>
+                  <li className="flex items-center gap-2"><Star className="w-4 h-4 text-accent" /> Kashvi</li>
+                  <li className="flex items-center gap-2"><Star className="w-4 h-4 text-accent" /> Elena</li>
+              </ul>
+            </div>
           </div>
         );
     }
