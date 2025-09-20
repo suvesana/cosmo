@@ -126,7 +126,7 @@ export default function CosmicFactsMain() {
               <p className="font-bold mt-4 mb-2">Brought to life by our amazing team:</p>
               <ul className="flex flex-col items-center space-y-1">
                   <li className="flex items-center gap-2"><Star className="w-4 h-4 text-accent" /> Suvesana Vengadesh</li>
-                  <li className="flex items-center gap-2"><Star className="w-4 h-4 text-accent" /> Kashvi</li>
+                  <li className="flex items-center gap-2"><Star className="w-4 h-4 text-accent" /> Kaashvi</li>
                   <li className="flex items-center gap-2"><Star className="w-4 h-4 text-accent" /> Elena</li>
               </ul>
             </div>
